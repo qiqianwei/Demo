@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2da190f49735ae501c50f91de053af17" label="computer apply" max_length="40" name="x_1758202_demo_computer_apply" type="collection">
+        <element label="Approval" max_length="40" name="approval" type="string"/>
+        <element label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element label="Request Date" max_length="40" name="request_date" type="glide_date"/>
+        <element label="Computer Apply Number" max_length="40" name="computer_apply_number" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="rejected" sequence="1" value="rejected"/>
+                <element inactive_on_update="false" label="Not Start" sequence="0" value="not_start"/>
+                <element inactive_on_update="false" label="Complete" sequence="2" value="complete"/>
+                <element inactive_on_update="false" label="awaiting approval" sequence="3" value="awaiting_approval"/>
+            </choice>
+        </element>
+        <element label="Request For" max_length="32" name="request_for" reference="sys_user" type="reference"/>
+        <element label="Onboarding Date" max_length="40" name="onboarding_date" type="glide_date"/>
+        <element choice="1" label="Computer Model" max_length="40" name="computer_model" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Think Pad" sequence="1" value="think_pad"/>
+                <element inactive_on_update="false" label="MackBook Pro" sequence="0" value="mackbook_pro"/>
+                <element inactive_on_update="false" label="Dell" sequence="2" value="dell"/>
+            </choice>
+        </element>
+        <element label="Approval History" max_length="40" name="approval_history" type="journal"/>
+        <index name="index">
+            <element name="request_for"/>
+        </index>
+        <index name="index2">
+            <element name="requester"/>
+        </index>
+    </element>
+</database>

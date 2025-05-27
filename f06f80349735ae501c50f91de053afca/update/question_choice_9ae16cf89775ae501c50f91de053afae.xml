@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="what computer model to choose">d831a4789775ae501c50f91de053afee</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-26 07:03:28</sys_created_on>
+        <sys_id>9ae16cf89775ae501c50f91de053afae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MacBook Pro</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>question_choice_9ae16cf89775ae501c50f91de053afae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-26 07:03:28</sys_updated_on>
+        <text>MacBook Pro</text>
+        <value>mac_book_pro</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=9ae16cf89775ae501c50f91de053afae"/>
+</record_update>
