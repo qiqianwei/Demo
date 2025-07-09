@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1758202_demo.readEXCEL</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>readEXCEL</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var readEXCEL = Class.create();
+readEXCEL.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    prepareData: function(row){
+		var myData = {};
+		myData.ent_id = row ['ENT ID'];
+		myData.ent_name = row ['ENT NAME'];
+		myData.type = row ['TYPE'];
+		myData.comment = row ['COMMENT'];
+		return myData;
+	},
+
+	getData:function(){
+		try{
+			var id = this.getParameter('sysparm_id');
+			var myObjArray = [];
+
+			var gr = new GlideRecord('sys_attachment');
+			if(!gr.get(id)){
+				return JSON.stringify({error:'Attachment does not exist or has been deleted'});
+			}
+
+			var contentType = gr.getValue('content_type');
+			if(!contentType.startsWith('application/vnd.ms-excel') && 
+			   !contentType.startsWith('application/vnd.openxmlformats-officedocument.spreadsheetml')){
+				return JSON.stringify({error:'Please upload a valid Excel file'});
+			}
+
+			var parser = new sn_impex.GlideExcelParser();
+			var attachment = new GlideSysAttachment();
+			var attachmentStream = attachment.getContentStream(id);
+			parser.parse(attachmentStream);
+
+			var isHeaderRow = true;
+			var Headers = [];
+
+			while(parser.next()){
+				var row = parser.getRow();
+				if(!row || Object.keys(row).length === 0) continue;
+
+				if(isHeaderRow){
+					headers = Object.keys(row);
+					gs.info('Retrieved headers:' + headers);
+
+					var requiredColumns = ['ENT ID','ENT NAME','TYPE','COMMENT'];
+					for (var i=0; i< requiredColumns.length; i++){
+						if(!headers.includes(requiredColumns[i])){
+							return JSON.stringify({error:'Excel file is missing required column:'+ requiredColumns[i]});
+						}
+					}
+					isHeaderRow = false;
+					continue;
+
+				}
+				myObjArray.push(this.prepareData(row));
+			}
+			if(myObjArray.length === 0){
+				return JSON.stringify({error:'No data rows found in Excel file'});
+			}
+
+			return JSON.stringify({success: true, data: myObjArray});
+		}catch(e){
+			
+			gs.error('Excel parsing error:' + e);
+			return JSON.stringify({error:'Error parsing Excel:' + e.message});
+		}
+	},
+    type: 'readEXCEL'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-09 06:53:34</sys_created_on>
+        <sys_id>d4bed4199702aa101c50f91de053af29</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>readEXCEL</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sys_script_include_d4bed4199702aa101c50f91de053af29</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-09 07:36:06</sys_updated_on>
+    </sys_script_include>
+</record_update>

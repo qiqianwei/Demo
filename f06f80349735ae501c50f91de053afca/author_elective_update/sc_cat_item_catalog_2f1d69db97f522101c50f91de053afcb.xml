@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="practice catalog item">04fc65db97f522101c50f91de053af6a</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 06:56:53</sys_created_on>
+        <sys_id>2f1d69db97f522101c50f91de053afcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.practice catalog item</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_2f1d69db97f522101c50f91de053afcb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 06:56:53</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>sc_cat_item_catalog_2f1d69db97f522101c50f91de053afcb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="practice catalog item">04fc65db97f522101c50f91de053af6a</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-03 06:56:53</sys_created_on><sys_id>2f1d69db97f522101c50f91de053afcb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.practice catalog item</sys_name><sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package><sys_policy/><sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope><sys_update_name>sc_cat_item_catalog_2f1d69db97f522101c50f91de053afcb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-03 06:56:53</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>435882689</payload_hash>
+        <record_name>Service Catalog.practice catalog item</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 06:56:53</sys_created_on>
+        <sys_id>2b1d69db97f522101c50f91de053afcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197349423370000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 06:56:53</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>6b1d69dbf4f5221061babc827a9b06ce</update_guid>
+        <update_guid_history>6b1d69dbf4f5221061babc827a9b06ce:435882689</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.practice catalog item">c43de9db97f522101c50f91de053afde</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-03 06:57:10</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>400a1b0ccd5e4bc59bf9a44e44f71c09</sys_id>
+        <sys_metadata>2f1d69db97f522101c50f91de053afcb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.practice catalog item</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent display_value="practice catalog item">04fc65db97f522101c50f91de053af6a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_2f1d69db97f522101c50f91de053afcb</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_2f1d69db97f522101c50f91de053afcb">2b1d69db97f522101c50f91de053afcf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-03 06:57:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

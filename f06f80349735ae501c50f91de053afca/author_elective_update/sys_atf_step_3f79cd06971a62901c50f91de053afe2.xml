@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from display_value="Set Variable Values">f55fd43d971222901c50f91de053afbc</copied_from>
+        <description>Answer the questions on the form as follows:
+please enter the employee's date of onboarding = 2025-07-31
+and please enter the applicant = manager practices 
+and please specify the employee who applies for a computer = Qi Qianwei
+and what computer model to choose = MacBook Pro</description>
+        <display_name>Set Variable Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Set Variable Values">323ca6e1c3b2220076173b0ac3d3aec1</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 03:40:13</sys_created_on>
+        <sys_id>3f79cd06971a62901c50f91de053afe2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Variable Values</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sys_atf_step_3f79cd06971a62901c50f91de053afe2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 03:41:35</sys_updated_on>
+        <table/>
+        <test display_value="ATF_Rejected_demo6_use catalog item">af798dc2971a62901c50f91de053af5d</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=3f79cd06971a62901c50f91de053afe2"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>3f79cd06971a62901c50f91de053afe2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 03:40:13</sys_created_on>
+        <sys_id>bf79cd06971a62901c50f91de053afe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 03:40:13</sys_updated_on>
+        <value>0b8e58f49775ae501c50f91de053afca</value>
+        <variable display_value="Item">571e6a25c3b2220076173b0ac3d3ae46</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>3f79cd06971a62901c50f91de053afe2</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 03:40:13</sys_created_on>
+        <sys_id>fb79cd06971a62901c50f91de053afe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 03:40:13</sys_updated_on>
+        <value>IO:48c3ec7c9775ae501c50f91de053af32=2025-07-31^IO:16536c3c9775ae501c50f91de053af96=569ce88197b9ee501c50f91de053af28^IO:d2226c389775ae501c50f91de053af39=117dd18d977dee501c50f91de053af33^IO:d831a4789775ae501c50f91de053afee=mac_book_pro^EQ</value>
+        <variable display_value="Variable Values">346eea25c3b2220076173b0ac3d3ae8b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_323ca6e1c3b2220076173b0ac3d3aec1^id=3f79cd06971a62901c50f91de053afe2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>sys_atf_step_3f79cd06971a62901c50f91de053afe2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from display_value="Set Variable Values">f55fd43d971222901c50f91de053afbc</copied_from><description>Answer the questions on the form as follows:
+please enter the employee's date of onboarding = 2025-07-31
+and please enter the applicant = manager practices 
+and please specify the employee who applies for a computer = Qi Qianwei
+and what computer model to choose = MacBook Pro</description><display_name>Set Variable Values</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Set Variable Values">323ca6e1c3b2220076173b0ac3d3aec1</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-24 03:40:13</sys_created_on><sys_id>3f79cd06971a62901c50f91de053afe2</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Set Variable Values</sys_name><sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package><sys_policy/><sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope><sys_update_name>sys_atf_step_3f79cd06971a62901c50f91de053afe2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-24 03:41:35</sys_updated_on><table/><test display_value="ATF_Rejected_demo6_use catalog item">af798dc2971a62901c50f91de053af5d</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=3f79cd06971a62901c50f91de053afe2"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>3f79cd06971a62901c50f91de053afe2</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-24 03:40:13</sys_created_on><sys_id>bf79cd06971a62901c50f91de053afe3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-24 03:40:13</sys_updated_on><value>0b8e58f49775ae501c50f91de053afca</value><variable display_value="Item">571e6a25c3b2220076173b0ac3d3ae46</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>3f79cd06971a62901c50f91de053afe2</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-24 03:40:13</sys_created_on><sys_id>fb79cd06971a62901c50f91de053afe3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-24 03:40:13</sys_updated_on><value>IO:48c3ec7c9775ae501c50f91de053af32=2025-07-31^IO:16536c3c9775ae501c50f91de053af96=569ce88197b9ee501c50f91de053af28^IO:d2226c389775ae501c50f91de053af39=117dd18d977dee501c50f91de053af33^IO:d831a4789775ae501c50f91de053afee=mac_book_pro^EQ</value><variable display_value="Variable Values">346eea25c3b2220076173b0ac3d3ae8b</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_323ca6e1c3b2220076173b0ac3d3aec1^id=3f79cd06971a62901c50f91de053afe2"/></record_update>]]></payload>
+        <payload_hash>203913814</payload_hash>
+        <record_name>Set Variable Values</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 03:41:35</sys_created_on>
+        <sys_id>fbc9c546971a62901c50f91de053af89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197a006e3470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 03:41:35</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>73c9c546b11a629010c37a243c592b89</update_guid>
+        <update_guid_history>73c9c546b11a629010c37a243c592b89:203913814,7f79cd06b51a6290ecbb11f491493ae5:532215156</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 01:54:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>6f65a8bf635b4083ab9a7096b608b4e9</sys_id>
+        <sys_metadata>3f79cd06971a62901c50f91de053afe2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Variable Values</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>sys_atf_step_3f79cd06971a62901c50f91de053afe2</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_3f79cd06971a62901c50f91de053afe2">fbc9c546971a62901c50f91de053af89</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 01:54:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

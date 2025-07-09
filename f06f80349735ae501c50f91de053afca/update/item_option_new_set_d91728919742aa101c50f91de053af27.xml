@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>data_set</internal_name>
+        <layout>2across</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-09 06:59:08</sys_created_on>
+        <sys_id>d91728919742aa101c50f91de053af27</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Data set</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>item_option_new_set_d91728919742aa101c50f91de053af27</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-06-09 07:04:10</sys_updated_on>
+        <title>Data set</title>
+        <type>one_to_many</type>
+        <version>6</version>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from display_value="Open a Record Producer">0a3f947d971222901c50f91de053afe6</copied_from>
+        <description>Open 'create onboarding applications items' Record Producer</description>
+        <display_name>Open a Record Producer</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Open a Record Producer">77409f72c300320076173b0ac3d3ae19</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 03:40:13</sys_created_on>
+        <sys_id>3f79cd06971a62901c50f91de053afdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a Record Producer</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sys_atf_step_3f79cd06971a62901c50f91de053afdd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 03:40:13</sys_updated_on>
+        <table/>
+        <test display_value="ATF_Rejected_demo6 copy">af798dc2971a62901c50f91de053af5d</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=3f79cd06971a62901c50f91de053afdd"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>3f79cd06971a62901c50f91de053afdd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 03:40:13</sys_created_on>
+        <sys_id>3f79cd06971a62901c50f91de053afde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 03:40:13</sys_updated_on>
+        <value>0b8e58f49775ae501c50f91de053afca</value>
+        <variable display_value="Record Producer">a9145b43c300320076173b0ac3d3ae0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_77409f72c300320076173b0ac3d3ae19^id=3f79cd06971a62901c50f91de053afdd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>sys_atf_step_3f79cd06971a62901c50f91de053afdd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from display_value="Open a Record Producer">0a3f947d971222901c50f91de053afe6</copied_from><description>Open 'create onboarding applications items' Record Producer</description><display_name>Open a Record Producer</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Open a Record Producer">77409f72c300320076173b0ac3d3ae19</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-24 03:40:13</sys_created_on><sys_id>3f79cd06971a62901c50f91de053afdd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open a Record Producer</sys_name><sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package><sys_policy/><sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope><sys_update_name>sys_atf_step_3f79cd06971a62901c50f91de053afdd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-24 03:40:13</sys_updated_on><table/><test display_value="ATF_Rejected_demo6 copy">af798dc2971a62901c50f91de053af5d</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=3f79cd06971a62901c50f91de053afdd"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>3f79cd06971a62901c50f91de053afdd</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-24 03:40:13</sys_created_on><sys_id>3f79cd06971a62901c50f91de053afde</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-24 03:40:13</sys_updated_on><value>0b8e58f49775ae501c50f91de053afca</value><variable display_value="Record Producer">a9145b43c300320076173b0ac3d3ae0e</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_77409f72c300320076173b0ac3d3ae19^id=3f79cd06971a62901c50f91de053afdd"/></record_update>]]></payload>
+        <payload_hash>1227752788</payload_hash>
+        <record_name>Open a Record Producer</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 03:40:13</sys_created_on>
+        <sys_id>b779cd06971a62901c50f91de053afe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197a005a3c40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 03:40:13</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>bb79cd06661a629031ee4da095a9bbe0</update_guid>
+        <update_guid_history>bb79cd06661a629031ee4da095a9bbe0:1227752788</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 03:41:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>0c0ef27c0bd34ba78fa8c15baf3758d1</sys_id>
+        <sys_metadata>3f79cd06971a62901c50f91de053afdd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a Record Producer</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>sys_atf_step_3f79cd06971a62901c50f91de053afdd</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_3f79cd06971a62901c50f91de053afdd">b779cd06971a62901c50f91de053afe1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 03:41:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

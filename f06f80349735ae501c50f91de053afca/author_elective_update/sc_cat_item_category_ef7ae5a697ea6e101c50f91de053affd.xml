@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Creat ITSM incident">e43a61a697ea6e101c50f91de053af0f</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 05:37:03</sys_created_on>
+        <sys_id>ef7ae5a697ea6e101c50f91de053affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Creat ITSM incident</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sc_cat_item_category_ef7ae5a697ea6e101c50f91de053affd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 05:37:03</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>sc_cat_item_category_ef7ae5a697ea6e101c50f91de053affd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Creat ITSM incident">e43a61a697ea6e101c50f91de053af0f</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-08 05:37:03</sys_created_on><sys_id>ef7ae5a697ea6e101c50f91de053affd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Can We Help You?.Creat ITSM incident</sys_name><sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package><sys_policy/><sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope><sys_update_name>sc_cat_item_category_ef7ae5a697ea6e101c50f91de053affd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-08 05:37:03</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>299336803</payload_hash>
+        <record_name>Can We Help You?.Creat ITSM incident</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-08 05:37:03</sys_created_on>
+        <sys_id>677a29a697ea6e101c50f91de053af0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197e889a1d30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-08 05:37:03</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>6b7a29a608ea6e10fe548739e4cd840d</update_guid>
+        <update_guid_history>6b7a29a608ea6e10fe548739e4cd840d:299336803</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.Creat ITSM incident">7c10f572976222101c50f91de053afbb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-09 00:39:54</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>4f169c80968446289fd40ea0f3a62e40</sys_id>
+        <sys_metadata>ef7ae5a697ea6e101c50f91de053affd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Creat ITSM incident</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_ef7ae5a697ea6e101c50f91de053affd</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_ef7ae5a697ea6e101c50f91de053affd">677a29a697ea6e101c50f91de053af0e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-09 00:39:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

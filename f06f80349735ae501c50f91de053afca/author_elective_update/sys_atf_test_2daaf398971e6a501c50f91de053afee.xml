@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description/>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>use record producer</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-19 06:05:48</sys_created_on>
+        <sys_id>2daaf398971e6a501c50f91de053afee</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>use record producer</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sys_atf_test_2daaf398971e6a501c50f91de053afee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:37:41</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=2daaf398971e6a501c50f91de053afee"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>sys_atf_test_2daaf398971e6a501c50f91de053afee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><fail_on_server_error>true</fail_on_server_error><name>use record producer</name><parameters/><remember/><sn_atf_tg_generated>false</sn_atf_tg_generated><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-19 06:05:48</sys_created_on><sys_id>2daaf398971e6a501c50f91de053afee</sys_id><sys_mod_count>2</sys_mod_count><sys_name>use record producer</sys_name><sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package><sys_policy/><sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope><sys_update_name>sys_atf_test_2daaf398971e6a501c50f91de053afee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-25 06:37:41</sys_updated_on><test_origin>manual</test_origin></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=2daaf398971e6a501c50f91de053afee"/></record_update>]]></payload>
+        <payload_hash>591931605</payload_hash>
+        <record_name>use record producer</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 06:37:41</sys_created_on>
+        <sys_id>81bbb652975ae2901c50f91de053af07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197a5ce789c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 06:37:41</sys_updated_on>
+        <type>Test</type>
+        <update_guid>c5bbb652535ae290dc956f2e40452b06</update_guid>
+        <update_guid_history>c5bbb652535ae290dc956f2e40452b06:591931605,54b9c906701a6290a0d1f69ca975f162:724745861,ebda3b983f1e6a50f87bcdf0098c306f:-236644557</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 01:02:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>1a2864473fed4fcc924a574d699a2e11</sys_id>
+        <sys_metadata>2daaf398971e6a501c50f91de053afee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>use record producer</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>sys_atf_test_2daaf398971e6a501c50f91de053afee</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_2daaf398971e6a501c50f91de053afee">81bbb652975ae2901c50f91de053af07</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 01:02:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

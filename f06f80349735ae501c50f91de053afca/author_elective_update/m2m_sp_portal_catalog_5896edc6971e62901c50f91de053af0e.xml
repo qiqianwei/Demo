@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="DELETE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="Technical Catalog">742ce428d7211100f2d224837e61036d</sc_catalog>
+        <sp_portal display_value="Computer request">ecddfa15977962901c50f91de053af03</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 05:47:14</sys_created_on>
+        <sys_id>5896edc6971e62901c50f91de053af0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Technical Catalog.Computer request</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_5896edc6971e62901c50f91de053af0e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 05:47:14</sys_updated_on>
+    </m2m_sp_portal_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>m2m_sp_portal_catalog_5896edc6971e62901c50f91de053af0e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog"><m2m_sp_portal_catalog action="INSERT_OR_UPDATE"><active>true</active><order>100</order><sc_catalog display_value="Technical Catalog">742ce428d7211100f2d224837e61036d</sc_catalog><sp_portal display_value="Computer request">ecddfa15977962901c50f91de053af03</sp_portal><sys_class_name>m2m_sp_portal_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-24 05:47:14</sys_created_on><sys_id>5896edc6971e62901c50f91de053af0e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Technical Catalog.Computer request</sys_name><sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package><sys_policy/><sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope><sys_update_name>m2m_sp_portal_catalog_5896edc6971e62901c50f91de053af0e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-24 05:47:14</sys_updated_on></m2m_sp_portal_catalog></record_update>]]></payload>
+        <payload_hash>1033145514</payload_hash>
+        <record_name>Technical Catalog.Computer request</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 05:47:14</sys_created_on>
+        <sys_id>5c96edc6971e62901c50f91de053af10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197a079ebf90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 05:47:14</sys_updated_on>
+        <type>Portal Catalog</type>
+        <update_guid>5096edc6941e6290604380dd92705610</update_guid>
+        <update_guid_history>5096edc6941e6290604380dd92705610:1033145514</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Technical Catalog.Computer request">8fe9e58e971e62901c50f91de053af5c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 06:01:54</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_catalog">m2m_sp_portal_catalog</sys_db_object>
+        <sys_id>0222fdb679be4eca9dce23a008d243c9</sys_id>
+        <sys_metadata>5896edc6971e62901c50f91de053af0e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Technical Catalog.Computer request</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_catalog_5896edc6971e62901c50f91de053af0e</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_catalog_5896edc6971e62901c50f91de053af0e">5c96edc6971e62901c50f91de053af10</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 06:01:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

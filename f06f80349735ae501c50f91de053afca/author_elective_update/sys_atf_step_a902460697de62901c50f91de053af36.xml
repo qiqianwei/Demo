@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Submit the Record Producer and confirm submission to server</description>
+        <display_name>Submit Record Producer (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <step_config display_value="Submit Record Producer (SP)">7c69d2788743030070870cf888cb0b5f</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 07:47:14</sys_created_on>
+        <sys_id>a902460697de62901c50f91de053af36</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Submit Record Producer (SP)</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sys_atf_step_a902460697de62901c50f91de053af36</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 07:56:55</sys_updated_on>
+        <table/>
+        <test display_value="ATF_Rejected_demo6_use record producer">2daaf398971e6a501c50f91de053afee</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=a902460697de62901c50f91de053af36"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>a902460697de62901c50f91de053af36</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 07:47:14</sys_created_on>
+        <sys_id>c2024a0697de62901c50f91de053aff9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 07:47:14</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="Assert Type">3c2ad2788743030070870cf888cb0b0c</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>sys_atf_step_a902460697de62901c50f91de053af36</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Submit the Record Producer and confirm submission to server</description><display_name>Submit Record Producer (SP)</display_name><inputs/><mugshots_cache_json/><notes/><order>4</order><step_config display_value="Submit Record Producer (SP)">7c69d2788743030070870cf888cb0b5f</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-24 07:47:14</sys_created_on><sys_id>a902460697de62901c50f91de053af36</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Submit Record Producer (SP)</sys_name><sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package><sys_policy/><sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope><sys_update_name>sys_atf_step_a902460697de62901c50f91de053af36</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-24 07:56:55</sys_updated_on><table/><test display_value="ATF_Rejected_demo6_use record producer">2daaf398971e6a501c50f91de053afee</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=a902460697de62901c50f91de053af36"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>a902460697de62901c50f91de053af36</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-24 07:47:14</sys_created_on><sys_id>c2024a0697de62901c50f91de053aff9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-24 07:47:14</sys_updated_on><value>form_submitted_to_server</value><variable display_value="Assert Type">3c2ad2788743030070870cf888cb0b0c</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>203879775</payload_hash>
+        <record_name>Submit Record Producer (SP)</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 07:56:55</sys_created_on>
+        <sys_id>c044c60a97de62901c50f91de053aff1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197a0f0a81c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 07:56:55</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>4844c60a22de62902f4ee38de5b137f0</update_guid>
+        <update_guid_history>4844c60a22de62902f4ee38de5b137f0:203879775,fc34860af8de62908b20ba804ce85ae5:886703136,a01202460dde6290ed9201e612da2b61:203879775,4e024a06dede6290b79c58ce04b10bfa:-1359794077</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 01:01:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>6607c694faa143daa45522c24e210444</sys_id>
+        <sys_metadata>a902460697de62901c50f91de053af36</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit Record Producer (SP)</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>sys_atf_step_a902460697de62901c50f91de053af36</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_a902460697de62901c50f91de053af36">c044c60a97de62901c50f91de053aff1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 01:01:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

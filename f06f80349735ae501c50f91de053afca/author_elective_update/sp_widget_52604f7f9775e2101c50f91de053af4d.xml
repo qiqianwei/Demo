@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, $timeout, spUtil, $window) {
+  var c = this;
+  
+  // 初始化变量
+  c.generating = false;
+  c.error = '';
+  
+  // 生成PDF函数
+  c.generatePDF = function() {
+    c.generating = true;
+    c.error = '';
+    
+    // 获取当前记录的sys_id（如果是记录相关的）
+    var recordSysId = $scope.page.id || '';
+    var tableName = $scope.data.table || '';
+    
+    // 调用服务器端脚本
+    c.server.get({
+      action: 'generatePDF',
+      sys_id: recordSysId,
+      table: tableName
+    }).then(function(response) {
+      c.generating = false;
+      
+      if (response.data.status === 'success') {
+        // 使用iframe触发下载
+        var iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        iframe.src = response.data.downloadUrl;
+        document.body.appendChild(iframe);
+        
+        // 3秒后移除iframe
+        $timeout(function() {
+          document.body.removeChild(iframe);
+        }, 3000);
+      } else {
+        c.error = response.data.message || '生成PDF失败';
+      }
+    });
+  };
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.pdf-generator-container {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.generate-pdf-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.generate-pdf-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>scripting</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>scripting</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  // 处理客户端请求
+  if (input && input.action === 'generatePDF') {
+    var response = {
+      status: 'error',
+      message: '',
+      downloadUrl: ''
+    };
+    
+    try {
+      var sysId = input.sys_id;
+      var tableName = input.table;
+      
+      // 验证输入
+      if (!sysId || !tableName) {
+        response.message = '缺少必要参数';
+        return response;
+      }
+      
+      // 检查记录是否存在
+      var gr = new GlideRecord(tableName);
+      if (!gr.get(sysId)) {
+        response.message = '记录不存在';
+        return response;
+      }
+      
+      // 生成PDF
+      var renderer = new PDFRenderer();
+      var options = {
+        table: tableName,
+        sys_id: sysId,
+        filename: 'document_' + gr.number + '.pdf',
+        template: 'your_template_id' // 可选，使用你的PDF模板ID
+      };
+      
+      var pdf = renderer.render(options);
+      if (pdf) {
+        // 创建临时附件
+        var attachment = new GlideSysAttachment();
+        var attachmentSysId = attachment.write(pdf, tableName, sysId, options.filename, 'application/pdf');
+        
+        // 标记为临时附件（可选）
+        new global.TempAttachmentUtil().markForDeletion(attachmentSysId);
+        
+        response.downloadUrl = '/sys_attachment.do?sys_id=' + attachmentSysId;
+        response.status = 'success';
+      } else {
+        response.message = 'PDF生成失败';
+      }
+    } catch (e) {
+      response.message = '服务器错误: ' + e.message;
+      gs.error('PDF生成错误: ' + e.message);
+    }
+    
+    return response;
+  }
+  
+  // 初始化代码（可选）
+  // data.table = $sp.getParameter('table') || 'incident'; // 示例：从URL参数获取表名
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 02:17:44</sys_created_on>
+        <sys_id>52604f7f9775e2101c50f91de053af4d</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>scripting</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sp_widget_52604f7f9775e2101c50f91de053af4d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 06:23:30</sys_updated_on>
+        <template><![CDATA[<div class="pdf-generator-container">
+  <button class="btn btn-primary generate-pdf-btn" ng-click="generatePDF()">
+    <span ng-if="!generating">生成PDF</span>
+    <span ng-if="generating">生成中...</span>
+  </button>
+  <div class="alert alert-danger" ng-if="error">{{error}}</div>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="DELETE">
+        <id>52604f7f9775e2101c50f91de053af4d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 02:17:44</sys_created_on>
+        <sys_id>de604f7f9775e2101c50f91de053af50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 02:17:44</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>sp_widget_52604f7f9775e2101c50f91de053af4d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope, $timeout, spUtil, $window) {
+  var c = this;
+  
+  // 初始化变量
+  c.generating = false;
+  c.error = '';
+  
+  // 生成PDF函数
+  c.generatePDF = function() {
+    c.generating = true;
+    c.error = '';
+    
+    // 获取当前记录的sys_id（如果是记录相关的）
+    var recordSysId = $scope.page.id || '';
+    var tableName = $scope.data.table || '';
+    
+    // 调用服务器端脚本
+    c.server.get({
+      action: 'generatePDF',
+      sys_id: recordSysId,
+      table: tableName
+    }).then(function(response) {
+      c.generating = false;
+      
+      if (response.data.status === 'success') {
+        // 使用iframe触发下载
+        var iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        iframe.src = response.data.downloadUrl;
+        document.body.appendChild(iframe);
+        
+        // 3秒后移除iframe
+        $timeout(function() {
+          document.body.removeChild(iframe);
+        }, 3000);
+      } else {
+        c.error = response.data.message || '生成PDF失败';
+      }
+    });
+  };
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.pdf-generator-container {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.generate-pdf-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.generate-pdf-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;scripting&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;scripting&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  // 处理客户端请求
+  if (input &amp;&amp; input.action === 'generatePDF') {
+    var response = {
+      status: 'error',
+      message: '',
+      downloadUrl: ''
+    };
+    
+    try {
+      var sysId = input.sys_id;
+      var tableName = input.table;
+      
+      // 验证输入
+      if (!sysId || !tableName) {
+        response.message = '缺少必要参数';
+        return response;
+      }
+      
+      // 检查记录是否存在
+      var gr = new GlideRecord(tableName);
+      if (!gr.get(sysId)) {
+        response.message = '记录不存在';
+        return response;
+      }
+      
+      // 生成PDF
+      var renderer = new PDFRenderer();
+      var options = {
+        table: tableName,
+        sys_id: sysId,
+        filename: 'document_' + gr.number + '.pdf',
+        template: 'your_template_id' // 可选，使用你的PDF模板ID
+      };
+      
+      var pdf = renderer.render(options);
+      if (pdf) {
+        // 创建临时附件
+        var attachment = new GlideSysAttachment();
+        var attachmentSysId = attachment.write(pdf, tableName, sysId, options.filename, 'application/pdf');
+        
+        // 标记为临时附件（可选）
+        new global.TempAttachmentUtil().markForDeletion(attachmentSysId);
+        
+        response.downloadUrl = '/sys_attachment.do?sys_id=' + attachmentSysId;
+        response.status = 'success';
+      } else {
+        response.message = 'PDF生成失败';
+      }
+    } catch (e) {
+      response.message = '服务器错误: ' + e.message;
+      gs.error('PDF生成错误: ' + e.message);
+    }
+    
+    return response;
+  }
+  
+  // 初始化代码（可选）
+  // data.table = $sp.getParameter('table') || 'incident'; // 示例：从URL参数获取表名
+})();
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-05 02:17:44&lt;/sys_created_on&gt;&lt;sys_id&gt;52604f7f9775e2101c50f91de053af4d&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;scripting&lt;/sys_name&gt;&lt;sys_package display_value="Demo" source="x_1758202_demo"&gt;f06f80349735ae501c50f91de053afca&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Demo"&gt;f06f80349735ae501c50f91de053afca&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_52604f7f9775e2101c50f91de053af4d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-05 06:23:30&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="pdf-generator-container"&gt;
+  &lt;button class="btn btn-primary generate-pdf-btn" ng-click="generatePDF()"&gt;
+    &lt;span ng-if="!generating"&gt;生成PDF&lt;/span&gt;
+    &lt;span ng-if="generating"&gt;生成中...&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;div class="alert alert-danger" ng-if="error"&gt;{{error}}&lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;52604f7f9775e2101c50f91de053af4d&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-05 02:17:44&lt;/sys_created_on&gt;&lt;sys_id&gt;de604f7f9775e2101c50f91de053af50&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-05 02:17:44&lt;/sys_updated_on&gt;&lt;table&gt;sp_widget&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-119324987</payload_hash>
+        <record_name>scripting</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 06:23:30</sys_created_on>
+        <sys_id>d6a8733797b9e2101c50f91de053afe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1973ec24cca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 06:23:30</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>5ea8733719b9e210481d2eeeccd329e6</update_guid>
+        <update_guid_history>5ea8733719b9e210481d2eeeccd329e6:-119324987,77e7b73711b9e2104df9cb512bc3bb7e:1263342154,cf5f633b2879e210daa169f40a828c07:-318949063,6b411bb3f5f5e2104a8a230481c3a23f:642051323,cd3157b35bf5e2105d92d25a2d54ad52:-1881495985,f89e07ffe7b5e210ffa2457f34c81bf7:358078361,d70ec73f89b5e21067361c613fe16b14:-1794467777,d1cd83bf2cb5e210b9f6887b1bbbed2d:486194367,372d43bf1db5e2106917e3dc74769eea:-545446699,8ddcc33f87b5e2105336820504f886dc:-580232672,ae0cc73f25b5e210218bdeb1e70a6f5e:2124719232,1bdb47bb60b5e210164f137ea83e5a13:-364567749,ef9bcbfb9cb5e210a178f1f5affd19ce:630978543,54904f7fb275e21088de585611d57b57:1997964120,5e604f7f8675e2104c2d6623cd72e74f:107607417</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="scripting">ce19c04c97cae2101c50f91de053af78</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 07:35:18</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>4da5987ad3464b74a435ddc053417490</sys_id>
+        <sys_metadata>52604f7f9775e2101c50f91de053af4d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scripting</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>sp_widget_52604f7f9775e2101c50f91de053af4d</sys_update_name>
+        <sys_update_version display_value="sp_widget_52604f7f9775e2101c50f91de053af4d">d6a8733797b9e2101c50f91de053afe7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-05 07:35:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

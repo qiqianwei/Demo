@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="DELETE">
+        <alternate_portal/>
+        <communication_channels/>
+        <css_variables/>
+        <dark_theme/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage>
+        <icon/>
+        <inactive>false</inactive>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <rtl_enabled>false</rtl_enabled>
+        <sc_catalog/>
+        <sc_catalog_page display_value="sc_home">fe87a11147132100ba13a5554ee490b9</sc_catalog_page>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 02:39:27</sys_created_on>
+        <sys_id>d0c486929716e2901c50f91de053af25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Portal</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sp_portal_d0c486929716e2901c50f91de053af25</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 02:39:27</sys_updated_on>
+        <theme/>
+        <title>Service Portal</title>
+        <ts_index_group/>
+        <url_suffix>sp</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="DELETE" query="documentkey=d0c486929716e2901c50f91de053af25"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>sp_portal_d0c486929716e2901c50f91de053af25</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><alternate_portal/><communication_channels/><css_variables/><dark_theme/><default>false</default><enable_ais>false</enable_ais><enable_certificate_based_authentication>false</enable_certificate_based_authentication><enable_favorites>false</enable_favorites><hide_portal_name>false</hide_portal_name><homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage><icon/><inactive>false</inactive><kb_knowledge_base/><kb_knowledge_page/><login_page/><logo/><notfound_page/><quick_start_config/><rtl_enabled>false</rtl_enabled><sc_catalog/><sc_catalog_page display_value="sc_home">fe87a11147132100ba13a5554ee490b9</sc_catalog_page><sc_category_page/><search_application/><search_results_configuration/><sp_chat_queue/><sp_rectangle_menu/><sys_class_name>sp_portal</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-25 02:39:27</sys_created_on><sys_id>d0c486929716e2901c50f91de053af25</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Portal</sys_name><sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package><sys_policy/><sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope><sys_update_name>sp_portal_d0c486929716e2901c50f91de053af25</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-25 02:39:27</sys_updated_on><theme/><title>Service Portal</title><ts_index_group/><url_suffix>sp</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=d0c486929716e2901c50f91de053af25"/></record_update>]]></payload>
+        <payload_hash>-998483809</payload_hash>
+        <record_name>Service Portal</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 02:39:28</sys_created_on>
+        <sys_id>eb25c6d29716e2901c50f91de053afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197a4f461850000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 02:39:28</sys_updated_on>
+        <type>Service Portal</type>
+        <update_guid>ef25c6d2b816e290198762145887a9c6</update_guid>
+        <update_guid_history>ef25c6d2b816e290198762145887a9c6:-998483809</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Portal">13be86129756e2901c50f91de053af78</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 03:21:15</sys_created_on>
+        <sys_db_object display_value="" name="sp_portal">sp_portal</sys_db_object>
+        <sys_id>2c5ca044698146d6ad1ee9cd064e13b9</sys_id>
+        <sys_metadata>d0c486929716e2901c50f91de053af25</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Portal</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>sp_portal_d0c486929716e2901c50f91de053af25</sys_update_name>
+        <sys_update_version display_value="sp_portal_d0c486929716e2901c50f91de053af25">eb25c6d29716e2901c50f91de053afc7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 03:21:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

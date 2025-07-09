@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>portal_meum_homepage</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-11 00:38:06</sys_created_on>
+        <sys_id>d1236179974e2e101c50f91de053af93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>portal_meum_homepage</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sp_page_d1236179974e2e101c50f91de053af93</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-11 00:38:06</sys_updated_on>
+        <title>Portal Meum Homepage</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=d1236179974e2e101c50f91de053af93"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>sp_page_d1236179974e2e101c50f91de053af93</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>portal_meum_homepage</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-11 00:38:06</sys_created_on><sys_id>d1236179974e2e101c50f91de053af93</sys_id><sys_mod_count>0</sys_mod_count><sys_name>portal_meum_homepage</sys_name><sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package><sys_policy/><sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope><sys_update_name>sp_page_d1236179974e2e101c50f91de053af93</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-11 00:38:06</sys_updated_on><title>Portal Meum Homepage</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=d1236179974e2e101c50f91de053af93"/></record_update>]]></payload>
+        <payload_hash>-1448271813</payload_hash>
+        <record_name>portal_meum_homepage</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-11 00:38:07</sys_created_on>
+        <sys_id>11236db9974e2e101c50f91de053aff7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1975c6c3e150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-11 00:38:07</sys_updated_on>
+        <type>Page</type>
+        <update_guid>15236db9884e2e109a3b14d5efcb4ef6</update_guid>
+        <update_guid_history>15236db9884e2e109a3b14d5efcb4ef6:-1448271813</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="portal_meum_homepage">652002b197026e101c50f91de053affa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-11 02:44:56</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>d3e11bac51de43489fcca2ce2a6f6240</sys_id>
+        <sys_metadata>d1236179974e2e101c50f91de053af93</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>portal_meum_homepage</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>sp_page_d1236179974e2e101c50f91de053af93</sys_update_name>
+        <sys_update_version display_value="sp_page_d1236179974e2e101c50f91de053af93">11236db9974e2e101c50f91de053aff7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-11 02:44:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
