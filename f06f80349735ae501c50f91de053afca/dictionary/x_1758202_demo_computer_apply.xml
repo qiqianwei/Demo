@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="2da190f49735ae501c50f91de053af17" label="computer apply" max_length="40" name="x_1758202_demo_computer_apply" type="collection">
         <element label="Approval" max_length="40" name="approval" type="string"/>
+        <element label="Number" max_length="40" name="number" type="string"/>
         <element label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
         <element label="Request Date" max_length="40" name="request_date" type="glide_date"/>
         <element label="Computer Apply Number" max_length="40" name="computer_apply_number" type="string"/>
@@ -10,6 +11,7 @@
                 <element inactive_on_update="false" label="Not Start" sequence="0" value="not_start"/>
                 <element inactive_on_update="false" label="Complete" sequence="2" value="complete"/>
                 <element inactive_on_update="false" label="awaiting approval" sequence="3" value="awaiting_approval"/>
+                <element inactive_on_update="false" label="approved" sequence="4" value="approved"/>
             </choice>
         </element>
         <element label="Request For" max_length="32" name="request_for" reference="sys_user" type="reference"/>

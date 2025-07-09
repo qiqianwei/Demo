@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Open "request computer" in the "Computer request" portal</description>
+        <display_name>Open a Catalog Item (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Open a Catalog Item (SP)">e81f02dc73e703008e6b0d573cf6a76f</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 01:56:51</sys_created_on>
+        <sys_id>d21bfd9297d2e2901c50f91de053af7b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Open a Catalog Item (SP)</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sys_atf_step_d21bfd9297d2e2901c50f91de053af7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 02:55:43</sys_updated_on>
+        <table/>
+        <test display_value="ATF_Rejected_demo6_use catalog item">af798dc2971a62901c50f91de053af5d</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=d21bfd9297d2e2901c50f91de053af7b"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>d21bfd9297d2e2901c50f91de053af7b</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 01:56:51</sys_created_on>
+        <sys_id>1b6b795697d2e2901c50f91de053af7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 01:56:51</sys_updated_on>
+        <value>fa7ed43d971222901c50f91de053af92</value>
+        <variable display_value="Catalog Item">ac615adc73e703008e6b0d573cf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>d21bfd9297d2e2901c50f91de053af7b</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 01:56:51</sys_created_on>
+        <sys_id>576b795697d2e2901c50f91de053af7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 01:56:51</sys_updated_on>
+        <value/>
+        <variable display_value="Query parameters">3a6e5fb15f1013001f1e1f9f2f7313e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>d21bfd9297d2e2901c50f91de053af7b</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 01:56:51</sys_created_on>
+        <sys_id>5f6b795697d2e2901c50f91de053af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 01:56:51</sys_updated_on>
+        <value>30b0c3d5977962901c50f91de053af1d</value>
+        <variable display_value="Page">83d1dadc73e703008e6b0d573cf6a779</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>d21bfd9297d2e2901c50f91de053af7b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 01:56:51</sys_created_on>
+        <sys_id>db6b795697d2e2901c50f91de053af7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 01:56:51</sys_updated_on>
+        <value>ecddfa15977962901c50f91de053af03</value>
+        <variable display_value="Portal">3731d6dc73e703008e6b0d573cf6a788</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_e81f02dc73e703008e6b0d573cf6a76f^id=d21bfd9297d2e2901c50f91de053af7b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>sys_atf_step_d21bfd9297d2e2901c50f91de053af7b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Open "request computer" in the "Computer request" portal</description><display_name>Open a Catalog Item (SP)</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Open a Catalog Item (SP)">e81f02dc73e703008e6b0d573cf6a76f</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-25 01:56:51</sys_created_on><sys_id>d21bfd9297d2e2901c50f91de053af7b</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Open a Catalog Item (SP)</sys_name><sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package><sys_policy/><sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope><sys_update_name>sys_atf_step_d21bfd9297d2e2901c50f91de053af7b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-25 02:55:43</sys_updated_on><table/><test display_value="ATF_Rejected_demo6_use catalog item">af798dc2971a62901c50f91de053af5d</test><timeout>1970-01-01 00:00:30</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=d21bfd9297d2e2901c50f91de053af7b"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>d21bfd9297d2e2901c50f91de053af7b</document_key><order>120</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-25 01:56:51</sys_created_on><sys_id>1b6b795697d2e2901c50f91de053af7b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-25 01:56:51</sys_updated_on><value>fa7ed43d971222901c50f91de053af92</value><variable display_value="Catalog Item">ac615adc73e703008e6b0d573cf6a702</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>d21bfd9297d2e2901c50f91de053af7b</document_key><order>150</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-25 01:56:51</sys_created_on><sys_id>576b795697d2e2901c50f91de053af7b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-25 01:56:51</sys_updated_on><value/><variable display_value="Query parameters">3a6e5fb15f1013001f1e1f9f2f7313e3</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>d21bfd9297d2e2901c50f91de053af7b</document_key><order>110</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-25 01:56:51</sys_created_on><sys_id>5f6b795697d2e2901c50f91de053af7a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-25 01:56:51</sys_updated_on><value>30b0c3d5977962901c50f91de053af1d</value><variable display_value="Page">83d1dadc73e703008e6b0d573cf6a779</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>d21bfd9297d2e2901c50f91de053af7b</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-25 01:56:51</sys_created_on><sys_id>db6b795697d2e2901c50f91de053af7b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-25 01:56:51</sys_updated_on><value>ecddfa15977962901c50f91de053af03</value><variable display_value="Portal">3731d6dc73e703008e6b0d573cf6a788</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_e81f02dc73e703008e6b0d573cf6a76f^id=d21bfd9297d2e2901c50f91de053af7b"/></record_update>]]></payload>
+        <payload_hash>1597197837</payload_hash>
+        <record_name>Open a Catalog Item (SP)</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 02:55:43</sys_created_on>
+        <sys_id>6de88a1a9716e2901c50f91de053af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197a503426e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 02:55:43</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>e1e88a1a2d16e29000b8acbe7adbdd81</update_guid>
+        <update_guid_history>e1e88a1a2d16e29000b8acbe7adbdd81:1597197837,df6b7956aad2e2903c5ef761d342a87d:402391884</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 02:56:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>c7d958082e1044ecac8f39e84d385890</sys_id>
+        <sys_metadata>d21bfd9297d2e2901c50f91de053af7b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a Catalog Item (SP)</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>sys_atf_step_d21bfd9297d2e2901c50f91de053af7b</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_d21bfd9297d2e2901c50f91de053af7b">6de88a1a9716e2901c50f91de053af81</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 02:56:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

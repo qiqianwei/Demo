@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Open Approval Form page in the manager portal portal</description>
+        <display_name>Open Service Portal Page</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>8</order>
+        <step_config display_value="Open Service Portal Page">fc7e65d577332300e46abe41a9106106</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 06:20:02</sys_created_on>
+        <sys_id>69f36cb1975222901c50f91de053af1a</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Open Service Portal Page</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sys_atf_step_69f36cb1975222901c50f91de053af1a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 07:56:55</sys_updated_on>
+        <table/>
+        <test display_value="ATF_Rejected_demo6_use record producer">2daaf398971e6a501c50f91de053afee</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=69f36cb1975222901c50f91de053af1a"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>69f36cb1975222901c50f91de053af1a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 06:20:02</sys_created_on>
+        <sys_id>0374a4f1975222901c50f91de053afd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 06:20:02</sys_updated_on>
+        <value>dcf1f502d7a23100a9ad1e173e24d414</value>
+        <variable display_value="Page">ca8ea5d577332300e46abe41a91061b6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>69f36cb1975222901c50f91de053af1a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 06:20:02</sys_created_on>
+        <sys_id>8774a4f1975222901c50f91de053afd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 06:20:02</sys_updated_on>
+        <value>0942ce3597026e101c50f91de053af4d</value>
+        <variable display_value="Portal">5a7e65d577332300e46abe41a91061cb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>69f36cb1975222901c50f91de053af1a</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 06:20:02</sys_created_on>
+        <sys_id>c374a4f1975222901c50f91de053afd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 06:20:02</sys_updated_on>
+        <value/>
+        <variable display_value="Query parameters">839e29d577332300e46abe41a9106134</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_fc7e65d577332300e46abe41a9106106^id=69f36cb1975222901c50f91de053af1a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>sys_atf_step_69f36cb1975222901c50f91de053af1a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Open Approval Form page in the manager portal portal</description><display_name>Open Service Portal Page</display_name><inputs/><mugshots_cache_json/><notes/><order>8</order><step_config display_value="Open Service Portal Page">fc7e65d577332300e46abe41a9106106</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-23 06:20:02</sys_created_on><sys_id>69f36cb1975222901c50f91de053af1a</sys_id><sys_mod_count>28</sys_mod_count><sys_name>Open Service Portal Page</sys_name><sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package><sys_policy/><sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope><sys_update_name>sys_atf_step_69f36cb1975222901c50f91de053af1a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-24 07:56:55</sys_updated_on><table/><test display_value="ATF_Rejected_demo6_use record producer">2daaf398971e6a501c50f91de053afee</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=69f36cb1975222901c50f91de053af1a"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>69f36cb1975222901c50f91de053af1a</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-23 06:20:02</sys_created_on><sys_id>0374a4f1975222901c50f91de053afd4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-23 06:20:02</sys_updated_on><value>dcf1f502d7a23100a9ad1e173e24d414</value><variable display_value="Page">ca8ea5d577332300e46abe41a91061b6</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>69f36cb1975222901c50f91de053af1a</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-23 06:20:02</sys_created_on><sys_id>8774a4f1975222901c50f91de053afd4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-23 06:20:02</sys_updated_on><value>0942ce3597026e101c50f91de053af4d</value><variable display_value="Portal">5a7e65d577332300e46abe41a91061cb</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>69f36cb1975222901c50f91de053af1a</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-23 06:20:02</sys_created_on><sys_id>c374a4f1975222901c50f91de053afd4</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-23 06:20:02</sys_updated_on><value/><variable display_value="Query parameters">839e29d577332300e46abe41a9106134</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fc7e65d577332300e46abe41a9106106^id=69f36cb1975222901c50f91de053af1a"/></record_update>]]></payload>
+        <payload_hash>1004647490</payload_hash>
+        <record_name>Open Service Portal Page</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 07:56:55</sys_created_on>
+        <sys_id>84440a0a97de62901c50f91de053af06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197a0f0a91e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 07:56:55</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>0c440a0a20de6290a0c93dcffa6a4c05</update_guid>
+        <update_guid_history>0c440a0a20de6290a0c93dcffa6a4c05:1004647490,3434060a7ade6290c638cf2ce3069719:-79662205,1812ca0653de629010d58986594e3e4c:1004647490,95f14e06f8de6290534c75400c3add28:2088957185,97d18a06a0de62909f38c6d3f5e62009:1004647490,84918206c3de62907a3c3741d825e2b4:2088957185,9a65f5c26c9e6290eb5ea0079b0f2d43:1004647490,d2598906c71a6290b8fc9761cc99c705:1191066714,08acbc8270d66290a9d3c9b35582732e:-800976231,a99cb082f4d6629092470a3cdc50017e:1191066714,a6452c4201566290ce0db8a323da075e:-800976231,04456842ec56629079b959d9728427e6:1191066714,a7c4ac02a756629002ec8228f003799b:-800976231,c8b4e8023556629087f558c75cecdf11:1191066714,4774a4f165522290ba61a915f7eb94d6:-800976231</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-30 01:01:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>3b4c69e0c99a4330ac9ab359cbc84900</sys_id>
+        <sys_metadata>69f36cb1975222901c50f91de053af1a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Service Portal Page</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>sys_atf_step_69f36cb1975222901c50f91de053af1a</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_69f36cb1975222901c50f91de053af1a">84440a0a97de62901c50f91de053af06</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-30 01:01:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

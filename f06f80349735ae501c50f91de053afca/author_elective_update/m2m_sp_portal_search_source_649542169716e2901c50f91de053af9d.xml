@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source">
+    <m2m_sp_portal_search_source action="DELETE">
+        <order>100</order>
+        <sp_portal display_value="Service Portal">d0c486929716e2901c50f91de053af25</sp_portal>
+        <sp_search_source display_value="Case">cc7944f5c3712200b0449f2974d3ae32</sp_search_source>
+        <sys_class_name>m2m_sp_portal_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 02:41:10</sys_created_on>
+        <sys_id>649542169716e2901c50f91de053af9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Portal.Case</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>m2m_sp_portal_search_source_649542169716e2901c50f91de053af9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 02:41:10</sys_updated_on>
+    </m2m_sp_portal_search_source>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>m2m_sp_portal_search_source_649542169716e2901c50f91de053af9d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source"><m2m_sp_portal_search_source action="INSERT_OR_UPDATE"><order>100</order><sp_portal display_value="Service Portal">d0c486929716e2901c50f91de053af25</sp_portal><sp_search_source display_value="Case">cc7944f5c3712200b0449f2974d3ae32</sp_search_source><sys_class_name>m2m_sp_portal_search_source</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-25 02:41:10</sys_created_on><sys_id>649542169716e2901c50f91de053af9d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Portal.Case</sys_name><sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package><sys_policy/><sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope><sys_update_name>m2m_sp_portal_search_source_649542169716e2901c50f91de053af9d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-25 02:41:10</sys_updated_on></m2m_sp_portal_search_source></record_update>]]></payload>
+        <payload_hash>-1619834646</payload_hash>
+        <record_name>Service Portal.Case</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 02:41:10</sys_created_on>
+        <sys_id>649542169716e2901c50f91de053afa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197a4f5f0500000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 02:41:10</sys_updated_on>
+        <type>Search Source</type>
+        <update_guid>68954216e916e290787d244d0433169f</update_guid>
+        <update_guid_history>68954216e916e290787d244d0433169f:-1619834646</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Portal.Case">a3bec6529756e2901c50f91de053af32</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 03:21:15</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_search_source">m2m_sp_portal_search_source</sys_db_object>
+        <sys_id>06cff5ea1d0247cb80e86aff876576c1</sys_id>
+        <sys_metadata>649542169716e2901c50f91de053af9d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Portal.Case</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_search_source_649542169716e2901c50f91de053af9d</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_search_source_649542169716e2901c50f91de053af9d">649542169716e2901c50f91de053afa0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 03:21:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Order item and confirm that ordering is successful</description>
+        <display_name>Order a Catalog Item (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>5</order>
+        <step_config display_value="Order a Catalog Item (SP)">c0fede515f23030076861f9f2f7313db</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 01:58:19</sys_created_on>
+        <sys_id>8abbf11697d2e2901c50f91de053af4f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Order a Catalog Item (SP)</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sys_atf_step_8abbf11697d2e2901c50f91de053af4f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 02:57:48</sys_updated_on>
+        <table/>
+        <test display_value="ATF_Rejected_demo6_use catalog item">af798dc2971a62901c50f91de053af5d</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=8abbf11697d2e2901c50f91de053af4f"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>8abbf11697d2e2901c50f91de053af4f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 01:58:19</sys_created_on>
+        <sys_id>f0cbb19697d2e2901c50f91de053af15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 01:58:19</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="Assert Type">b27f92915f23030076861f9f2f731356</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>sys_atf_step_8abbf11697d2e2901c50f91de053af4f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Order item and confirm that ordering is successful</description><display_name>Order a Catalog Item (SP)</display_name><inputs/><mugshots_cache_json/><notes/><order>5</order><step_config display_value="Order a Catalog Item (SP)">c0fede515f23030076861f9f2f7313db</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-25 01:58:19</sys_created_on><sys_id>8abbf11697d2e2901c50f91de053af4f</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Order a Catalog Item (SP)</sys_name><sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package><sys_policy/><sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope><sys_update_name>sys_atf_step_8abbf11697d2e2901c50f91de053af4f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-25 02:57:48</sys_updated_on><table/><test display_value="ATF_Rejected_demo6_use catalog item">af798dc2971a62901c50f91de053af5d</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=8abbf11697d2e2901c50f91de053af4f"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>8abbf11697d2e2901c50f91de053af4f</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-25 01:58:19</sys_created_on><sys_id>f0cbb19697d2e2901c50f91de053af15</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-25 01:58:19</sys_updated_on><value>form_submitted_to_server</value><variable display_value="Assert Type">b27f92915f23030076861f9f2f731356</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1834241695</payload_hash>
+        <record_name>Order a Catalog Item (SP)</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 02:57:48</sys_created_on>
+        <sys_id>8c69465a9716e2901c50f91de053af9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197a50529610000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 02:57:48</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>0469465a5816e290515b6f2e280fa19e</update_guid>
+        <update_guid_history>0469465a5816e290515b6f2e280fa19e:1834241695,fe19ce1a0016e290f9e56e8e1fc24886:905098816,e1e88a1ac316e290682bd4cb99ddc774:1834241695,7ccbb19642d2e290ff6635821af82816:905098816</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-25 02:57:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>1312fdd76f224fff8298585566c937a1</sys_id>
+        <sys_metadata>8abbf11697d2e2901c50f91de053af4f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order a Catalog Item (SP)</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>sys_atf_step_8abbf11697d2e2901c50f91de053af4f</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_8abbf11697d2e2901c50f91de053af4f">8c69465a9716e2901c50f91de053af9e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-25 02:57:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

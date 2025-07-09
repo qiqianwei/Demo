@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-06 03:06:19</sys_created_on>
+        <sys_id>e3155cd4970266101c50f91de053afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>addNumberBtn.user</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_security_acl display_value="addNumberBtn">9b155cd4970266101c50f91de053af9d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e3155cd4970266101c50f91de053afa1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-06 03:06:19</sys_updated_on>
+        <sys_user_role display_value="user" name="user">b05926fa0a0a0aa7000130023e0bde98</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

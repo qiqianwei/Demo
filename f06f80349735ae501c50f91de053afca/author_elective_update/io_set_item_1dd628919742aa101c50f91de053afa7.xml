@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Import Excel to MRVS">604954519702aa101c50f91de053af1f</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-09 06:59:22</sys_created_on>
+        <sys_id>1dd628919742aa101c50f91de053afa7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Data set.Import Excel to MRVS</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>io_set_item_1dd628919742aa101c50f91de053afa7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-09 06:59:23</sys_updated_on>
+        <variable_set display_value="Data set">d91728919742aa101c50f91de053af27</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>io_set_item_1dd628919742aa101c50f91de053afa7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Import Excel to MRVS">604954519702aa101c50f91de053af1f</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-09 06:59:22</sys_created_on><sys_id>1dd628919742aa101c50f91de053afa7</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Data set.Import Excel to MRVS</sys_name><sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package><sys_policy/><sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope><sys_update_name>io_set_item_1dd628919742aa101c50f91de053afa7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-09 06:59:23</sys_updated_on><variable_set display_value="Data set">d91728919742aa101c50f91de053af27</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-581191586</payload_hash>
+        <record_name>Data set.Import Excel to MRVS</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-09 06:59:23</sys_created_on>
+        <sys_id>b23764d19742aa101c50f91de053af6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197537c96150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-09 06:59:23</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>b63764d16e42aa10892b3f1379b1d56c</update_guid>
+        <update_guid_history>b63764d16e42aa10892b3f1379b1d56c:-581191586</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Data set.Import Excel to MRVS">d867ec919742aa101c50f91de053af1a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-09 07:00:02</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>c08440de69374108953119b225bc4440</sys_id>
+        <sys_metadata>1dd628919742aa101c50f91de053afa7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Data set.Import Excel to MRVS</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>io_set_item_1dd628919742aa101c50f91de053afa7</sys_update_name>
+        <sys_update_version display_value="io_set_item_1dd628919742aa101c50f91de053afa7">b23764d19742aa101c50f91de053af6d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-09 07:00:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

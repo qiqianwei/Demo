@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1758202_demo.SetAssigner</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>SetAssigner</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var SetAssigner = Class.create();
+SetAssigner.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    setData: function() {
+        var obj = {};
+        obj['userID'] = gs.getUser().getID();
+        return JSON.stringify(obj);
+    },
+    type: 'SetAssigner'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-06 00:28:57</sys_created_on>
+        <sys_id>35c0fb80974e26101c50f91de053af58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SetAssigner</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sys_script_include_35c0fb80974e26101c50f91de053af58</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-06 00:28:57</sys_updated_on>
+    </sys_script_include>
+</record_update>

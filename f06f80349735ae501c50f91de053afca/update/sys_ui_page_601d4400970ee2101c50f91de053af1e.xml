@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[// 在UI Page的Client Script部分
+function showConfirmation() {
+    // 先阻止默认行为
+    event.preventDefault();
+    event.stopPropagation();
+    
+    var dialog = new GlideDialogWindow('confirm_dialog');
+    dialog.setTitle('确认更新');
+    dialog.setPreference('sys_id', g_form.getUniqueValue());
+    dialog.setPreference('field_value', g_form.getValue('your_field'));
+    dialog.setWidth(500);
+    dialog.render();
+}
+
+// 处理确认结果的函数
+function handleConfirmation(result, sys_id, fieldValue) {
+    if (result === 'ok') {
+        var ga = new GlideAjax('FieldUpdater');
+        ga.addParam('sysparm_name', 'updateField');
+        ga.addParam('sysparm_sys_id', sys_id);
+        ga.addParam('sysparm_field_value', fieldValue);
+        ga.getXML(function(response) {
+            var answer = response.responseXML.documentElement.getAttribute("answer");
+            if (answer === 'success') {
+                g_form.addInfoMessage('字段更新成功！');
+            } else {
+                g_form.addErrorMessage('更新失败');
+            }
+        });
+    }
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1758202_demo_Confirmation Dialog Example.do</endpoint>
+        <html><![CDATA[<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+  <g:ui_form>
+    <button class="btn btn-primary" onclick="showConfirmationDialog()">更新字段</button>
+    
+    <script>
+      function showConfirmationDialog() {
+        var dialog = new GlideDialogWindow('confirm_dialog');
+        dialog.setTitle('确认更新');
+        dialog.setPreference('table', 'your_table');
+        dialog.setPreference('sys_id', g_form.getUniqueValue());
+        dialog.setPreference('fieldValue', document.getElementById('field_input').value);
+        dialog.render();
+      }
+      
+      function processConfirmation(result, table, sys_id, fieldValue) {
+        if (result == 'ok') {
+          // 使用GlideAjax更新字段
+          var ga = new GlideAjax('FieldUpdater');
+          ga.addParam('sysparm_name', 'updateField');
+          ga.addParam('sysparm_table', table);
+          ga.addParam('sysparm_sys_id', sys_id);
+          ga.addParam('sysparm_field_value', fieldValue);
+          ga.getXML(function(response) {
+            var answer = response.responseXML.documentElement.getAttribute("answer");
+            if (answer === 'success') {
+              alert('字段更新成功!');
+              location.reload(); // 刷新页面
+            } else {
+              alert('更新失败');
+            }
+          });
+        }
+      }
+    </script>
+    
+    <input type="text" id="field_input" class="form-control" />
+  </g:ui_form>
+</j:jelly>]]></html>
+        <name>Confirmation Dialog Example</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-05 07:59:23</sys_created_on>
+        <sys_id>601d4400970ee2101c50f91de053af1e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Confirmation Dialog Example</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sys_ui_page_601d4400970ee2101c50f91de053af1e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-06 00:39:06</sys_updated_on>
+    </sys_ui_page>
+</record_update>

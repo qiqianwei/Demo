@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="request computer">fa7ed43d971222901c50f91de053af92</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 05:55:57</sys_created_on>
+        <sys_id>5efe507d971222901c50f91de053af6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.request computer</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sc_cat_item_category_5efe507d971222901c50f91de053af6c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 05:55:57</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>sc_cat_item_category_5efe507d971222901c50f91de053af6c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="request computer">fa7ed43d971222901c50f91de053af92</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-23 05:55:57</sys_created_on><sys_id>5efe507d971222901c50f91de053af6c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Can We Help You?.request computer</sys_name><sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package><sys_policy/><sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope><sys_update_name>sc_cat_item_category_5efe507d971222901c50f91de053af6c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-23 05:55:57</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1698378471</payload_hash>
+        <record_name>Can We Help You?.request computer</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-23 05:55:57</sys_created_on>
+        <sys_id>dafe507d971222901c50f91de053af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1979b5b8cb70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-23 05:55:57</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>defe507d1e122290b23cf4747c07676f</update_guid>
+        <update_guid_history>defe507d1e122290b23cf4747c07676f:-1698378471</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.request computer">fa60de0a9712a2901c50f91de053af90</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 08:50:05</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>6d6d33c9459941f0b5d0785ac2d48f10</sys_id>
+        <sys_metadata>5efe507d971222901c50f91de053af6c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.request computer</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_5efe507d971222901c50f91de053af6c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_5efe507d971222901c50f91de053af6c">dafe507d971222901c50f91de053af70</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 08:50:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
