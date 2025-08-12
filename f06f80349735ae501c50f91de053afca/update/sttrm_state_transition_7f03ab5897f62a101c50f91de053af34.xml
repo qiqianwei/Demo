@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sttrm_state_transition">
+    <sttrm_state_transition action="INSERT_OR_UPDATE">
+        <automatic>false</automatic>
+        <from_state display_value="Assess">c7a4916397aee2101c50f91de053afea</from_state>
+        <name>Assess to Canceled</name>
+        <sys_class_name>sttrm_state_transition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 00:53:16</sys_created_on>
+        <sys_id>7f03ab5897f62a101c50f91de053af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assess to Canceled</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sttrm_state_transition_7f03ab5897f62a101c50f91de053af34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 00:53:16</sys_updated_on>
+        <to_state display_value="Canceled">23e22f1897f62a101c50f91de053af5d</to_state>
+    </sttrm_state_transition>
+    <sys_translated_text action="delete_multiple" query="documentkey=7f03ab5897f62a101c50f91de053af34"/>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sttrm_state">
+    <sttrm_state action="INSERT_OR_UPDATE">
+        <initial_state>false</initial_state>
+        <state_label>Closed</state_label>
+        <state_sequence>7</state_sequence>
+        <state_value>3</state_value>
+        <sttrm_model display_value="Infrastructure">5c83952397aee2101c50f91de053af8e</sttrm_model>
+        <sys_class_name>sttrm_state</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 00:52:31</sys_created_on>
+        <sys_id>ede26b5897f62a101c50f91de053af28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sttrm_state_ede26b5897f62a101c50f91de053af28</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 00:52:31</sys_updated_on>
+    </sttrm_state>
+    <sys_translated_text action="delete_multiple" query="documentkey=ede26b5897f62a101c50f91de053af28"/>
+</record_update>

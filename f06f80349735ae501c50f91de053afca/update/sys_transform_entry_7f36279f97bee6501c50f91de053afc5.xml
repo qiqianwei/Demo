@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="u_imp_tmpl_kb_knowledge">7f36279f97bee6501c50f91de053afb2</map>
+        <reference_value_field/>
+        <source_field>u_sys_id</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>u_imp_tmpl_kb_knowledge</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 08:48:52</sys_created_on>
+        <sys_id>7f36279f97bee6501c50f91de053afc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_sys_id</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sys_transform_entry_7f36279f97bee6501c50f91de053afc5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 08:48:52</sys_updated_on>
+        <target_field>sys_id</target_field>
+        <target_table>kb_knowledge</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

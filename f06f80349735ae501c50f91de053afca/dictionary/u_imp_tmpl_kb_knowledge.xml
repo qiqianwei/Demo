@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="64c3c02d977e6e101c50f91de053afe4" extends="sys_import_set_row" label="Imp Tmpl Kb Knowledge" max_length="40" name="u_imp_tmpl_kb_knowledge" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Article body" label="Article body" max_length="40" name="u_article_body" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Category(kb_category)" label="Category(kb_category)" max_length="40" name="u_category_kb_category_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Author" label="Author" max_length="32" name="u_author" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short description" label="Short description" max_length="100" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sys ID" label="Sys ID" max_length="40" name="u_sys_id" type="string"/>
+    </element>
+</database>

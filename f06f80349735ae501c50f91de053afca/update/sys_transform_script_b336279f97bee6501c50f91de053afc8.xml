@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="u_imp_tmpl_kb_knowledge">7f36279f97bee6501c50f91de053afb2</map>
+        <order>100</order>
+        <script><![CDATA[if (action == 'insert') 
+    ignore = true;]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 08:48:52</sys_created_on>
+        <sys_id>b336279f97bee6501c50f91de053afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sys_transform_script_b336279f97bee6501c50f91de053afc8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 08:48:52</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>

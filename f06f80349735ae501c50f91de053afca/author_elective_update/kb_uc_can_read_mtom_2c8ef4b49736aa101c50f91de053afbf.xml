@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom">
+    <kb_uc_can_read_mtom action="DELETE">
+        <kb_knowledge_base display_value="KB focused on End Users">00f8896897326a101c50f91de053af60</kb_knowledge_base>
+        <sys_class_name>kb_uc_can_read_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 02:11:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2c8ef4b49736aa101c50f91de053afbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB focused on End Users.ITSM Technical</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>kb_uc_can_read_mtom_2c8ef4b49736aa101c50f91de053afbf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 02:11:12</sys_updated_on>
+        <user_criteria display_value="ITSM Technical">71480d2897326a101c50f91de053af1a</user_criteria>
+    </kb_uc_can_read_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Demo">f06f80349735ae501c50f91de053afca</application>
+        <file_path/>
+        <instance_id>86ad816a3b11aa10baf6048aa4e45a89</instance_id>
+        <instance_name>dev346922</instance_name>
+        <name>kb_uc_can_read_mtom_2c8ef4b49736aa101c50f91de053afbf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom"><kb_uc_can_read_mtom action="INSERT_OR_UPDATE"><kb_knowledge_base display_value="KB focused on End Users">00f8896897326a101c50f91de053af60</kb_knowledge_base><sys_class_name>kb_uc_can_read_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-07-15 02:11:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2c8ef4b49736aa101c50f91de053afbf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>KB focused on End Users.ITSM Technical</sys_name><sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package><sys_policy/><sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope><sys_update_name>kb_uc_can_read_mtom_2c8ef4b49736aa101c50f91de053afbf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-07-15 02:11:12</sys_updated_on><user_criteria display_value="ITSM Technical">71480d2897326a101c50f91de053af1a</user_criteria></kb_uc_can_read_mtom></record_update>]]></payload>
+        <payload_hash>-1634169686</payload_hash>
+        <record_name>KB focused on End Users.ITSM Technical</record_name>
+        <reverted_from/>
+        <source>fda124419779ee501c50f91de053af22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-15 02:11:12</sys_created_on>
+        <sys_id>748ef4b49736aa101c50f91de053afc2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1980bd9b0370000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-15 02:11:12</sys_updated_on>
+        <type>Who Can Read Knowledge Base</type>
+        <update_guid>788ef4b43f36aa10eaca1cf454ce55c1</update_guid>
+        <update_guid_history>788ef4b43f36aa10eaca1cf454ce55c1:-1634169686</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="KB focused on End Users.ITSM Technical">0b526f1b97bee6501c50f91de053afcc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-23 08:31:53</sys_created_on>
+        <sys_db_object display_value="" name="kb_uc_can_read_mtom">kb_uc_can_read_mtom</sys_db_object>
+        <sys_id>b8e7a6b280294f008769f4a91504f010</sys_id>
+        <sys_metadata>2c8ef4b49736aa101c50f91de053afbf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB focused on End Users.ITSM Technical</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_scope_delete display_value="">264450cdeb42493593c20b15e3df28f9</sys_scope_delete>
+        <sys_update_name>kb_uc_can_read_mtom_2c8ef4b49736aa101c50f91de053afbf</sys_update_name>
+        <sys_update_version display_value="kb_uc_can_read_mtom_2c8ef4b49736aa101c50f91de053afbf">748ef4b49736aa101c50f91de053afc2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-23 08:31:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

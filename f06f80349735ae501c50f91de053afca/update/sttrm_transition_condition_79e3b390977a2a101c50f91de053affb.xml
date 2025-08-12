@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sttrm_transition_condition">
+    <sttrm_transition_condition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <condition_script><![CDATA[(function (current) {
+    var ga = new GlideAggregate("change_task");
+	ga.addQuery("change_request", current.sys_id);
+	ga.addQuery("active", 1);
+	var qc1 = ga.addQuery("created_from", "workflow");
+	qc1.addOrCondition("created_from", "flow");
+	ga.query();
+	return ga.getRowCount() === 0;
+})(current);]]></condition_script>
+        <condition_type display_value="Transition Script">eb8676985303101034d1ddeeff7b1291</condition_type>
+        <description/>
+        <name>No active Change Task</name>
+        <order>100</order>
+        <sttrm_state_transition display_value="Implement to Review">f8d3bb50977a2a101c50f91de053af20</sttrm_state_transition>
+        <sys_class_name>sttrm_transition_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-07-14 02:07:52</sys_created_on>
+        <sys_id>79e3b390977a2a101c50f91de053affb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>No active Change Task</sys_name>
+        <sys_package display_value="Demo" source="x_1758202_demo">f06f80349735ae501c50f91de053afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Demo">f06f80349735ae501c50f91de053afca</sys_scope>
+        <sys_update_name>sttrm_transition_condition_79e3b390977a2a101c50f91de053affb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-07-14 02:07:52</sys_updated_on>
+    </sttrm_transition_condition>
+    <sys_translated_text action="delete_multiple" query="documentkey=79e3b390977a2a101c50f91de053affb"/>
+</record_update>
